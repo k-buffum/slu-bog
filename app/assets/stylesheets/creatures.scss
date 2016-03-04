@@ -9,7 +9,7 @@ a, #creatureName {
 }
 
 body {
-  background-image: url('swamp2.png');
+  background-image: url('swamp.png');
   background-repeat: none;
   background-size: cover;
   color: black;
@@ -17,6 +17,12 @@ body {
 
 #createEditForm {
   margin: 5px 20%;
+}
+
+.creatureForm {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 2% 25%;
+  padding: 20px 0;
 }
 
 #createHead, #editHead {
@@ -27,6 +33,10 @@ body {
 #creaturesHead {
   color: white;
   text-shadow: 1px 1px black;
+}
+
+#creatureInfo {
+  margin: 0 5%;
 }
 
 #creatureInfo, #singleCreature {
@@ -63,13 +73,17 @@ h1, h2, p {
 }
 
 label {
-  color: #492C21;
+  color: forestgreen;
   font-size: 20px;
-  font-weight: bold;
-  text-shadow: 1px 1px black;
+  text-shadow: 1.2px 1.2px black;
 }
 
 .navbar {
   background-color: rgba(0, 0, 0, 0.4);
   border: rgba(0, 0, 0, 0.4);
+}
+
+#singleCreature {
+  margin: 10%;
+  padding: 15px 10px 20px 10px;
 }
