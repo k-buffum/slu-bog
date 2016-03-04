@@ -1,0 +1,7 @@
+<form id='createEditForm'>
+<%= bootstrap_form_for @creature do |thing| %>
+  <%= thing.text_field :name %>
+  <%= thing.text_area :description %>
+  <%= thing.submit %>
+<% end %>
+</form>
