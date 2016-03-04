@@ -13,6 +13,7 @@ body {
   background-repeat: none;
   background-size: cover;
   color: black;
+  height: 100%
 }
 
 #createEditForm {
@@ -57,6 +58,14 @@ body {
   text-shadow: 1px 1px black; 
 }
 
+#footer {
+  background-color: rgba(0, 0, 0, 0.4);
+  bottom: 0;
+  color: white;
+  left: 0;
+  position: fixed;
+}
+
 h1, h2, p {
   text-align: center;
 }
@@ -76,6 +85,11 @@ label {
   color: forestgreen;
   font-size: 20px;
   text-shadow: 1.2px 1.2px black;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 20px;
 }
 
 .navbar {
