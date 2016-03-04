@@ -2,19 +2,74 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-h1, h2, p {
-  text-align: center;
-}
 
-a {
-  color: black;
+a, #creatureName {
+  color: forestgreen;
+  text-shadow: 1px 1px black;
 }
 
 body {
-  background-color: #47FFD0;
+  background-image: url('swamp2.png');
+  background-repeat: none;
+  background-size: cover;
   color: black;
 }
 
 #createEditForm {
   margin: 5px 20%;
+}
+
+#createHead, #editHead {
+  color: #492C21;
+  text-shadow: 1.2px 1.2px black;
+}
+
+#creaturesHead {
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+#creatureInfo, #singleCreature {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+#delete a {
+  color: #492C21;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+#edit a {
+  font-size: 15px;
+  text-shadow: 1px 1px black; 
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: forestgreen;
+  text-shadow: 1px 1px black;
+}
+
+.jumbotron p {
+  color: white;
+  font-size: 22px;
+}
+
+label {
+  color: #492C21;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: rgba(0, 0, 0, 0.4);
 }
